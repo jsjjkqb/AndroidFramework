@@ -1,0 +1,12 @@
+<resources>
+    <style name="TranslucentTheme" parent="AppTheme">
+        <!--是否半透明状态栏，true时colorPrimaryDark无效-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--导航栏背景色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏背景色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--控件选中后的颜色-->
+        <item name="colorAccent">@android:color/holo_purple</item>
+    </style>
+</resources>
